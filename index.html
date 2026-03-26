@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV Information</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <header class="cv-header">
+        <div class="cv-header-left">
+          <img class="profile-icon" src="Assets/CVProfile.png" alt="Profile icon" />
+          <div class="cv-header-info">
+            <h1 id="cv-name"></h1>
+            <p id="cv-title"></p>
+          </div>
+        </div>
+        <button class="lang-toggle" id="lang-toggle" onclick="toggleLanguage()"></button>
+      </header>
+
+      <!-- Contact -->
+      <section class="section">
+        <h2 class="section-title" id="contact-title"></h2>
+        <div class="contact-row">
+          <span class="contact-item">📧 <a id="contact-email" href=""></a></span>
+          <!-- <span class="contact-item">📱 <span id="contact-phone"></span></span> -->
+          <span class="contact-item">📍 <a id="contact-location" href="https://maps.app.goo.gl/6dxgorey8opHPnFeA"></a></span>
+          <span class="contact-item">🔗 <a id="contact-github" href="" target="_blank" rel="noopener noreferrer"></a></span>
+          <span class="contact-item">💼 <a id="contact-linkedin" href="" target="_blank" rel="noopener noreferrer"></a></span>
+        </div>
+      </section>
+
+      <!-- Summary -->
+      <section class="section">
+        <h2 class="section-title" id="summary-title"></h2>
+        <p id="summary-text"></p>
+      </section>
+
+      <!-- Experience -->
+      <section class="section">
+        <h2 class="section-title" id="experience-title"></h2>
+        <div id="experience-list"></div>
+      </section>
+
+      <!-- Education -->
+      <section class="section">
+        <h2 class="section-title" id="education-title"></h2>
+        <div id="education-list"></div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section">
+        <h2 class="section-title" id="skills-title"></h2>
+        <div id="skills-list"></div>
+      </section>
+
+      <!-- Projects -->
+      <section class="section">
+        <h2 class="section-title" id="projects-title"></h2>
+        <div id="projects-list"></div>
+      </section>
+
+      <!-- Certifications -->
+      <section class="section">
+        <h2 class="section-title" id="certifications-title"></h2>
+        <ul class="certifications-list" id="certifications-list"></ul>
+      </section>
+
+      <!-- Languages -->
+      <section class="section">
+        <h2 class="section-title" id="languages-title"></h2>
+        <div id="languages-list"></div>
+      </section>
+
+      <!-- Interests -->
+      <section class="section">
+        <h2 class="section-title" id="interests-title"></h2>
+        <p class="interests-text" id="interests-text"></p>
+      </section>
+    </div>
+
+    <script src="i18n.js"></script>
+  </body>
+</html>
