@@ -2,7 +2,7 @@ const translations = {
   en: {
     // Header
     name: "Võ Tất Nhật Thiện",
-    title: "Roblox Developer",
+    title: "Game Developer",
     switchLang: "English",
 
     // Contact
@@ -83,7 +83,7 @@ const translations = {
   vi: {
     // Header
     name: "Võ Tất Nhật Thiện",
-    title: "Lập trình viên Roblox",
+    title: "Lập trình viên Game",
     switchLang: "Tiếng Việt",
 
     // Contact
